@@ -1,0 +1,27 @@
+name: "📝 Content correction"
+description: Report an error, outdated fact or unclear passage in the course
+title: "[Content] "
+labels: ["content"]
+body:
+  - type: input
+    id: where
+    attributes:
+      label: Where in the course?
+      description: Lesson and section heading, e.g. "Lesson 2 · Verifying a credential step by step"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What is wrong or unclear?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Your proposal (in British English)
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: Link or reference that supports the correction

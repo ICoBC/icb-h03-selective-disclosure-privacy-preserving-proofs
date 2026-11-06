@@ -1,0 +1,18 @@
+name: "♿ Accessibility issue"
+description: Something in the course is hard to use with assistive technology, keyboard or zoom
+title: "[Accessibility] "
+labels: ["accessibility"]
+body:
+  - type: input
+    id: where
+    attributes:
+      label: Where in the course?
+    validations:
+      required: true
+  - type: textarea
+    id: barrier
+    attributes:
+      label: What is the barrier?
+      description: Include browser, device and assistive technology if relevant
+    validations:
+      required: true

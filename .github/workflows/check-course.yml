@@ -1,0 +1,17 @@
+# ICoBC Course Workshop · automatic check of a LiaScript course
+# Runs on every pull request and on pushes to main. No secrets needed.
+name: Check course
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check README.md (LiaScript header, quizzes, images, British English)
+        run: python .github/scripts/check_course.py README.md

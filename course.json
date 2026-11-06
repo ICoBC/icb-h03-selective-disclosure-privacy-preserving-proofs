@@ -1,0 +1,32 @@
+{
+  "course_id": "ICB-H03",
+  "repository": "icb-h03-selective-disclosure-privacy-preserving-proofs",
+  "repository_url": "https://github.com/ICoBC/icb-h03-selective-disclosure-privacy-preserving-proofs",
+  "title": "Selective Disclosure and Privacy-Preserving Proofs",
+  "subtitle": "What wallet privacy promises rest on.",
+  "version": "1.0.0",
+  "series": "Horizon",
+  "skill": "Security, privacy and data protection",
+  "level": "4",
+  "level_name": "Assure",
+  "stage": "K",
+  "stage_name": "Knowledge",
+  "alignment_code": "ICSF-SECP-L4-K",
+  "badge_name": "Selective Disclosure and Privacy-Preserving Proofs (Knowledge, L4)",
+  "hours": "3",
+  "language": "en-GB",
+  "licence": "CC BY 4.0",
+  "licensor": "International Council on Badges and Credentials e.V.",
+  "web": "https://academy.icobc.net/courses/icb-h03/",
+  "parts": [
+    "About this course",
+    "Selective disclosure",
+    "Formats compared",
+    "Unlinkability",
+    "Zero-knowledge proofs",
+    "Assessment and badge",
+    "Sources and further reading"
+  ],
+  "final_questions": 10,
+  "practice_questions": 16
+}
